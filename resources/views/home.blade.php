@@ -8,12 +8,14 @@
 </head>
 
 <body>
-    <div class="container">
-        <div class="title">
-            <h1>{{ $title }}</h1>
-            <p>Ciao! Mi chiamo {{ $my_name }}</p>
+    <header>
+        <div class="container">
+            <div class="title">
+                <h1>{{$title}}</h1>
+                <p>Ciao! Mi chiamo {{$my_name}} e qua sotto ci sono i link per altre pagine</p>
+            </div>
         </div>
-    </div>
+    </header>
 </body>
 
 </html>
